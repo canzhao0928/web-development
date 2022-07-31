@@ -1,0 +1,27 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-color: #3D3C42;
+    color: #66BFBF;
+    text-align: center;
+}
+
+.heading {
+    font-size: 8rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.row {
+    padding: 0 30%;
+}
+
+.dice-icon {
+    color: red;
+    font-size: 10rem;
+    
+}
+
+footer {
+    padding-top: 5rem;
+}

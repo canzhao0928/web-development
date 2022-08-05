@@ -1,0 +1,39 @@
+body {
+    background-color: #495C83;
+}
+
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.row{
+    text-align: center;
+    margin: 5% 35%;
+}
+
+.btns {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 5rem;
+    border: black solid 0.5rem;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+.btn-green {
+    background-color: green;
+}
+.btn-red {
+    background-color: red;
+}
+.btn-yellow {
+    background-color: yellow;
+}
+.btn-blue {
+    background-color: blue;
+}

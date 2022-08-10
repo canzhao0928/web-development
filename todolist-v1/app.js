@@ -1,10 +1,12 @@
+require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const { stringify } = require("querystring");
 const _ = require("lodash");
 
-mongoose.connect("mongodb://localhost:27017/todolist");
+// mongoose.connect("mongodb://localhost:27017/todolist");
+mongoose.connect(`mongodb+srv://admin-can:${process.env.SECRET}@cluster0.fq1pe99.mongodb.net/todolist`);
 
 const toDoListsSchema = new mongoose.Schema({
     name: String
